@@ -1,6 +1,6 @@
 FROM amazoncorretto:17 as build
 
-ARG KOTLIN_VERSION=2.0.20
+ARG KOTLIN_VERSION=2.3.0
 ARG DEVELOCITY_ACCESS_KEY
 
 RUN if [ -z "$KOTLIN_VERSION" ]; then \
